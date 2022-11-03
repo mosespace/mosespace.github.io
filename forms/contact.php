@@ -8,10 +8,10 @@
     die( 'Unable to load the "PHP Email Form" Library!');
   }
 
-  $contact = new ($php_email_Form) ;
+  $contact = new PHP_Email_Form;
   $contact->ajax = true;
   
-  $contact->to = $receiving_email_address;
+  $contact->to = 'kisakyemoses50@gmail.com';
   $contact->from_name = $_POST['name'];
   $contact->from_email = $_POST['email'];
   $contact->subject = $_POST['subject'];
@@ -23,4 +23,6 @@
   $contact->add_message( $_POST['message'], 'Message', 10);
 
   echo $contact->send();
+  $contact->add_attachment('resume', 20, array('pdf', 'doc', 'docx', 'rtf'));
+  $contact->recaptcha_secret_key = '6LckItciAAAAAEV63UwI257yugQXc67_QcNFuuVT';
 ?>
