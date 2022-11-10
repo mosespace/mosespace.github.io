@@ -1,2 +1,2 @@
-# My-Blog
+# LinkTree
 This is my personal Website
