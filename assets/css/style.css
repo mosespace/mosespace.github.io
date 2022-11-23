@@ -349,7 +349,7 @@ h6 {
 }
 
 #footer h3 {
-  font-size: 36px;
+  font-size: 55px;
   font-weight: 700;
   position: relative;
   font-family: "Poppins", sans-serif;
@@ -357,6 +357,27 @@ h6 {
   margin: 0 0 15px 0;
 }
 
+#footer p{
+  align-content: center;
+  position: relative;
+  margin: 0px;
+  padding-right: 0px;
+}
+
+#footer .social-links a{
+  font-size: 15px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1;
+  margin-right: 20px;
+  transition: 0.3s;
+  position: relative;
+
+}
+
+#footer .social-links a:hover{
+  color: #272829;
+}
 
 #footer .copyright {
   margin: 0 0 5px 0;
