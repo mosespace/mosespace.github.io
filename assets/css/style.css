@@ -338,6 +338,29 @@ h6 {
 }
 
 /*--------------------------------------------------------------
+# Button
+--------------------------------------------------------------*/
+
+.button {
+  width: fit-content;
+  border: none;
+  color: #fff;
+  background-color: #0563bb;
+  text-decoration: none;
+  position: relative;
+  padding: 5px 32px;
+  font-size: 15px;
+  border-radius: 25px;
+  box-shadow: 5px 5px 56px 0px rgba(0,0,0,0.25);
+  margin-top: 1%;
+  align-content: center;
+}
+
+.button a:hover{
+  color: #ffa500;
+}
+
+/*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
 #footer {
