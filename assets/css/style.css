@@ -382,21 +382,11 @@ h6 {
 }
 
 #footer p{
+  text-align: center;  
   align-content: center;
-  position: relative;
-  margin: 0px;
-  padding-right: 0px;
-}
-
-#footer .social-links a{
-  font-size: 15px;
-  font-weight: 700;
-  color: #fff;
-  line-height: 1;
-  margin-right: 20px;
-  transition: 0.3s;
-  position: relative;
-
+  margin: auto;
+  padding-right: 9px;
+  padding-left: 21.55px;
 }
 
 #footer .social-links a:hover{
