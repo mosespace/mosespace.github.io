@@ -11,14 +11,10 @@ body {
 }
 
 a {
-  color: #0563bb;
+  color: #fff;
   text-decoration: none;
 }
 
-a:hover {
-  color: #067ded;
-  text-decoration: none;
-}
 
 h1,
 h2,
@@ -328,6 +324,11 @@ h6 {
     font-size: 20px;
     line-height: 24px;
   }
+  div.button1 {
+    width: 70% auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 
@@ -341,22 +342,22 @@ h6 {
 # Button
 --------------------------------------------------------------*/
 
-.button {
+.button1 {
   width: fit-content;
   border: none;
   color: #fff;
   background-color: #0563bb;
   text-decoration: none;
   position: relative;
-  padding: 5px 32px;
+  padding: 15px 50px;
   font-size: 15px;
-  border-radius: 25px;
+  border-radius: 40px;
   box-shadow: 5px 5px 56px 0px rgba(0,0,0,0.25);
-  margin-top: 1%;
+  top: 10%;
   align-content: center;
 }
 
-.button a:hover{
+.button1 a:hover{
   color: #ffa500;
 }
 
