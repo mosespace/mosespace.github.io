@@ -280,6 +280,13 @@ h6 {
   color: #45505b;
 }
 
+#hero h3{
+  margin: 10px 0 0 0 ;
+  line-height: 30px;
+  font-size: 20px;
+
+}
+
 #hero p {
   color: #45505b;
   margin: 15px 0 0 0;
