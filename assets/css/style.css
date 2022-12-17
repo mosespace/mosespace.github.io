@@ -274,9 +274,10 @@ h6 {
 }
 
 #hero h2 {
-  margin: 20px 0 0 0 ;
-  font-size: 25px;
+  margin: 8px 0 0 0 ;
+  font-size: 18px;
   line-height: 30px;
+  font-weight: 700;
   color: #45505b;
 }
 
@@ -289,7 +290,7 @@ h6 {
 
 #hero p {
   color: #45505b;
-  margin: 15px 0 0 0;
+  margin: 18px 0 0 0;
   font-size: 26px;
   font-family: "Poppins", sans-serif;
 }
@@ -300,7 +301,7 @@ h6 {
 }
 
 #hero .social-links {
-  margin-top: 30px;
+  margin-top: 25px;
 }
 
 #hero .social-links a {
@@ -325,6 +326,11 @@ h6 {
     font-size: 32px;
     line-height: 36px;
   }
+
+  #hero h3 {
+    font-size: 15px;
+  }
+
 
   #hero p {
     margin-top: 10px;
@@ -360,7 +366,7 @@ h6 {
   font-size: 15px;
   border-radius: 40px;
   box-shadow: 5px 5px 56px 0px rgba(0,0,0,0.25);
-  top: 10%;
+  top: 6%;
   align-content: center;
 }
 
