@@ -288,6 +288,15 @@ h6 {
 
 }
 
+#hero h3 a{
+  display: inline-block;
+  color: #0563bb;
+}
+
+#hero h3 a:hover{
+  color: #272829;
+}
+
 #hero p {
   color: #45505b;
   margin: 18px 0 0 0;
