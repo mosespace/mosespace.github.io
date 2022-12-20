@@ -340,6 +340,10 @@ h6 {
     display: none;    
   }
 
+  #hero h2{
+    font-size: 15px;
+    margin: auto;
+  }
 
   #hero p {
     margin-top: 10px;
