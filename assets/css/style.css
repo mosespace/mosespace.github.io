@@ -337,9 +337,13 @@ h6 {
   }
 
   #hero h3 {
-    font-size: 17px;
+    display: none;    
   }
 
+  #hero h2{
+    font-size: 15px;
+    margin: auto;
+  }
 
   #hero p {
     margin-top: 10px;
