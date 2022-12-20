@@ -337,7 +337,7 @@ h6 {
   }
 
   #hero h3 {
-    font-size: 17px;
+    display: none;    
   }
 
 
